@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <link rel="stylesheet" href="somestyle.css">
+</head>
+<body>
+
+<div id="sideNavigation" class="boxy">
+ <a href="#">These</a>
+ <a href="#">Do</a>
+ <a href="#">Nothing</a>
+</div>
+
+<div id="bod" class="magne">
+  
+<h2> Andromeda Jones </h2>
+ <p>watch me do</p>
+  
+</div>
+
+<canvas id="theCanvas" width="480" height="320"></canvas>
+
+<div id="bod" class="magne">
+ <h1>Controls</h1>
+ <p><b>Arrow Keys or WASD:</b> Move</p>
+ <p><b>Spacebar:</b> Jump</p>
+</div>
+<script type="text/javascript" src="sideshooter.js"></script>
+</body>
+</html>
