@@ -91,7 +91,7 @@ function drawMan() {
 }
 
 function drawTerrain() {
-    ctx.beginPath() {
+    ctx.beginPath();
     ctx.rect(canvas.width/2-100,canvas.height/2-20,200,40);
     ctx.fillStyle="#00FF00";
     ctx.fill();
@@ -107,3 +107,5 @@ function draw() {
 
     requestAnimationFrame(draw);
 }
+
+draw();
